@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS city;
+
+CREATE TABLE city (
+  id      INT PRIMARY KEY AUTO_INCREMENT,
+  NAME    VARCHAR(64),
+  state   VARCHAR(16),
+  country VARCHAR(16)
+);

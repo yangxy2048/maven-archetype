@@ -1,0 +1,17 @@
+debug: false
+
+logging:
+  level:
+    root: info
+
+spring:
+  application:
+    name: springboot-archetype
+  profiles:
+    active: dev
+
+
+#mybatis-plus配置
+mybatis-plus:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.github.simple.entity
